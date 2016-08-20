@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width height=device-height">
+
+    <title>Divine Intervention | A Medieval Magepunk LARP</title>
+
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400|Alegreya:400,400i" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+
+<body ng-app="divineIntervention">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <!--<div class="navbar-header">-->
+                <!--<a class="navbar-brand" href="#">-->
+                    <!--<div class="nav-title">DI</div>-->
+                <!--</a>-->
+            <!--</div>-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a ui-sref="dashboard">Home</a></li>
+                <li><a ui-sref="cultures">Cultures</a></li>
+                <li><a ui-sref="rules">Rules</a></li>
+                <li><a ui-sref="events">Events</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div ui-view></div>
+</body>
+
+<script src="app.js"></script>
+<script src="controllers/dashboard.js"></script>
+<script src="routes.js"></script>
+
+</html>
