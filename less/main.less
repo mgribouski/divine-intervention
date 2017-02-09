@@ -1,7 +1,7 @@
 @main-primary: #F9B842;
 @main-dark: #333647;
 
-@import "../bower_components/bootstrap/less/bootstrap";
+//@import "../bower_components/bootstrap/less/bootstrap";
 
 //body {
 //  background: url("./di-bg.png");
@@ -84,6 +84,19 @@
   background-color: @main-primary;
 }
 
+.di-footer {
+  background-color: @main-primary;
+  height: 35px;
+  //margin-top: -35px;
+  //width: 100%;
+}
+
+.footer-text {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align:center;
+  line-height: 2.5;
+}
+
 .side-text {
   position: absolute;
   top: 45%;
@@ -95,6 +108,21 @@
 .text-container {
   padding: 50px 20%;
 }
+
+.other-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -40%);
+  //top: 300px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  font-size: 80pt;
+  color: @main-dark;
+  text-align:center
+}
+
 .main-header {
   width: 100%;
   //top: 300px;

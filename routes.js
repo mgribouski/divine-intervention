@@ -16,11 +16,11 @@
                 controller: 'DashboardCtrl',
                 templateUrl: 'views/rules.html'
             })
-            .state('cultures', {
-                url: '/cultures',
-                controller: 'DashboardCtrl',
-                templateUrl: 'views/cultures.html'
-            })
+            // .state('cultures', {
+            //     url: '/cultures',
+            //     controller: 'DashboardCtrl',
+            //     templateUrl: 'views/cultures.html'
+            // })
             .state('events', {
                 url: '/events',
                 controller: 'DashboardCtrl',

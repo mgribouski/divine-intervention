@@ -12,7 +12,6 @@ Then run a webserver from this directory. For example, `python -m SimpleHTTPServ
 
 ## To Do
 Before launch:
-* Add footer
-* Figure out non-homepage styling
 * Stripe Integration
 * Finalize culture pages
+* Character builder

@@ -6,35 +6,37 @@
 
     <title>Divine Intervention | A Medieval Magepunk LARP</title>
 
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <!--<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,300,400|Alegreya:400,400i" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
 </head>
 
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/angular/angular.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
 
 
 <body ng-app="divineIntervention">
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
-            <!--<div class="navbar-header">-->
-                <!--<a class="navbar-brand" href="#">-->
-                    <!--<div class="nav-title">DI</div>-->
-                <!--</a>-->
-            <!--</div>-->
             <ul class="nav navbar-nav navbar-right">
                 <li><a ui-sref="dashboard">Home</a></li>
-                <li><a ui-sref="cultures">Cultures</a></li>
+                <!--<li><a ui-sref="cultures">Cultures</a></li>-->
                 <li><a ui-sref="rules">Rules</a></li>
                 <li><a ui-sref="events">Events</a></li>
+                <li><a href="http://forums.divineinterventionlarp.com">Forums</a></li>
             </ul>
         </div>
     </nav>
     <div ui-view></div>
+    <div class="footer di-footer">
+        <div class="footer-text">
+            Be Epic, Inc (c) 2008-2016. Email staff at <a href="mailto:divineinterventionlarp@gmail.com">divineinterventionlarp@gmail.com</a>.
+        </div>
+    </div>
 </body>
 
 <script src="app.js"></script>
